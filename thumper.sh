@@ -21,4 +21,4 @@ center=0   # Start position of the center of the first image.
   done |
     # read pipeline of positioned images, and merge together
     convert -background transparent   MIFF:-  -layers merge +repage \
-            -bordercolor none -border 3x3 -extent 300x200  /Volumes/Macintosh\ HD-1/Library/WebServer/Documents/group_thumbs/b"$box"f"$folder".png
+            -bordercolor none -border 3x3 -extent 300x200  group_thumbs/b"$box"f"$folder".png
